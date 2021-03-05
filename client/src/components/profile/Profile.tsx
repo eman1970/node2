@@ -11,7 +11,7 @@ export const Profile = () => {
         <div className="profileWrapper">
                  <div id="username">{ authUser.username}</div>
 
-            <img className="profileImg" src={'https://thispersondoesnotexist.com/image'} />
+            <img className="profileImg" src={'https://thispersondoesnotexist.com/image'} alt="Profile" />
                        <ProfileDropdown />
                        
                        
