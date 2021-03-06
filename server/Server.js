@@ -18,7 +18,9 @@ app.get('/recipe', (request, response) => {
     response.send('Hello World!')
 })
 
-app.get('/user', isAuthenticated, (request, response) => {
+app.get('/auth', isAuthenticated, (request, response) => {
+    console.log('Successfully connected to the database')
+  
 })
 
 UserRoutes.routes(app)
@@ -28,7 +30,7 @@ app.use(middlewares.errorHandler)
 
 function isAuthenticated(request, response, next) {
     request.query.admin === 'true'
-        ? response.send('You are admin!')
+        ? response.send('You are admin!') 
         : response.send('You cannot make calls to this API URL!')
     next()
 }
