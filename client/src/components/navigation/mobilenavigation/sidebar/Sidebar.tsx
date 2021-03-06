@@ -53,4 +53,3 @@ export const Sidebar = (props: { drawerIsOpen: boolean, drawerHandler: Function 
         </div>
     )
 }
-
