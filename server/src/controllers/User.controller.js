@@ -1,5 +1,5 @@
 import UserModel from '../models/User.model.js'
-import StatusCode from '../../../server/src/configurations/StatusCodes.js'
+import StatusCode from '../configurations/StatusCodes.js'
 
 const createUser = async (request, response) => {
 
