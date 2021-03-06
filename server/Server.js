@@ -18,7 +18,7 @@ app.get('/recipe', (request, response) => {
     response.send('Hello World!')
 })
 
-app.get('/auth', isAuthenticated, (request, response) => {
+app.get('/user', isAuthenticated, (request, response) => {
 })
 
 UserRoutes.routes(app)
