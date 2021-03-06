@@ -19,7 +19,7 @@ app.get('/recipe', (request, response) => {
 })
 
 app.get('/auth', isAuthenticated, (request, response) => {
-    console.log('Successfully connected to the database')
+    console.log('Successfully Authenticated!')
   
 })
 

@@ -14,7 +14,7 @@ const errorHandler = (error, request, response, next) => {
     response.json({
         statuscode: statuscode,
         message: error.message,
-        stacktrace: process.env.ENVIROMENT === 'DEVELOPMENT' ? 'IN PRODUCTION' : error.stack,
+        stacktrace: process.env.ENVIROMENT === 'PRODUCTION' ? 'IN PRODUCTION' : error.stack,
     })
 }
 
