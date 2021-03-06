@@ -33,7 +33,7 @@ export const Sidebar = (props: { drawerIsOpen: boolean, drawerHandler: Function 
     return (
         <div className={props.drawerIsOpen ? 'side-drawer open' : 'side-drawer'}>
             <button onClick={() => props.drawerHandler(false)}>CLOSE sidebar</button>
-
+ 
             <ul className="ulTabsWrapper2">
                 <li className="liTabs" onClick={() => handleRedirect(RoutingPath.homeView)}>home</li>
                 <li className="liTabs" onClick={() => handleRedirect(RoutingPath.accessoriesView)}>accessories</li>
@@ -43,7 +43,7 @@ export const Sidebar = (props: { drawerIsOpen: boolean, drawerHandler: Function 
                 <li className="liTabs" onClick={() => handleRedirect(RoutingPath.shopView)}>shop</li>
 
             </ul>
-
+ 
             
             <div className="desktopNavigationTabs2">
     {displaySignInButtonOnAuthetication()}
