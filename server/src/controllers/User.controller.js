@@ -26,7 +26,7 @@ const getAllUsers = async (request, response) => {
         response.status(StatusCode.OK).send(databaseResponse)
     } catch (error) {
         response.status(StatusCode.INTERNAL_SERVER_ERROR).send({
-            message: 'Error while trying to find user',
+            message: 'Error while trying to find users',
             stack: error
         })
 
