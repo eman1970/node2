@@ -1,1 +1,1 @@
-NODE - Inlämningsuppgift 5 - Java Fullstack - Campus Mölndal Tommy Hallqvist Datum: 2021-03-07
+NODE - Inlämningsuppgift 5 + 6 - Java Fullstack - Campus Mölndal Tommy Hallqvist Datum: 2021-03-07
